@@ -1,0 +1,33 @@
+.profiles {
+  &__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin-top: 30px;
+
+    &--active {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  &__photo {
+    transition: filter 300ms;
+    cursor: pointer;
+
+    &:hover {
+      filter: brightness(1.2);
+    }
+
+    &--active:hover {
+      filter: brightness(1);
+    }
+
+    &--notactive {
+      opacity: 0.5;
+    }
+  }
+}

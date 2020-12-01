@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="23" viewBox="0 0 12 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2399f1;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="-11" y="0" width="23" height="23" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="3.333" in="SourceAlpha"/>
+      <feComposite result="composite"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feFlood result="flood" flood-color="#2399f1" flood-opacity="0.47"/>
+      <feComposite result="composite-4" operator="in" in2="composite-3"/>
+      <feBlend result="blend" mode="screen" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="Active_Highlight" data-name="Active Highlight" class="cls-1" cy="11" r="2"/>
+</svg>

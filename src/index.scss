@@ -1,0 +1,15 @@
+@import "fonts";
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "SourceSansPro-Regular";
+}
+
+body {
+  margin: 0;
+}

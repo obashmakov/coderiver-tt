@@ -1,0 +1,49 @@
+.menu {
+  display: flex;
+  height: 100vh;
+
+  &__status {
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 100%;
+    background-color: rgb(29, 37, 49);
+  }
+
+  &__options {
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    padding-left: 100px;
+    transition: 500ms;
+
+    &--notactive {
+      transition: 500ms;
+      transform: translateX(-300px);
+    }
+  }
+
+  &__options-icon {
+    cursor: pointer;
+    transition: filter 300ms;
+
+    &:hover {
+      filter: brightness(5);
+    }
+
+    &--distant {
+      cursor: pointer;
+      transition: filter 300ms;
+      margin-left: 15px;
+
+      &:hover {
+        filter: brightness(5);
+      }
+    }
+  }
+}
