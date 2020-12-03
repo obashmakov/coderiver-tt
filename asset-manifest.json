@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/coderiver-tt/static/css/main.33a6d6be.chunk.css",
-    "main.js": "/coderiver-tt/static/js/main.db0a34be.chunk.js",
-    "main.js.map": "/coderiver-tt/static/js/main.db0a34be.chunk.js.map",
+    "main.css": "/coderiver-tt/static/css/main.496829bb.chunk.css",
+    "main.js": "/coderiver-tt/static/js/main.4ba076c8.chunk.js",
+    "main.js.map": "/coderiver-tt/static/js/main.4ba076c8.chunk.js.map",
     "runtime-main.js": "/coderiver-tt/static/js/runtime-main.a038e98a.js",
     "runtime-main.js.map": "/coderiver-tt/static/js/runtime-main.a038e98a.js.map",
     "static/js/2.9ec8ab51.chunk.js": "/coderiver-tt/static/js/2.9ec8ab51.chunk.js",
     "static/js/2.9ec8ab51.chunk.js.map": "/coderiver-tt/static/js/2.9ec8ab51.chunk.js.map",
     "index.html": "/coderiver-tt/index.html",
-    "static/css/main.33a6d6be.chunk.css.map": "/coderiver-tt/static/css/main.33a6d6be.chunk.css.map",
+    "static/css/main.496829bb.chunk.css.map": "/coderiver-tt/static/css/main.496829bb.chunk.css.map",
     "static/js/2.9ec8ab51.chunk.js.LICENSE.txt": "/coderiver-tt/static/js/2.9ec8ab51.chunk.js.LICENSE.txt",
     "static/media/InfoCards.scss": "/coderiver-tt/static/media/Arrow.6278d9d1.svg",
     "static/media/Header.scss": "/coderiver-tt/static/media/Dropdown.127d95cd.svg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.a038e98a.js",
     "static/js/2.9ec8ab51.chunk.js",
-    "static/css/main.33a6d6be.chunk.css",
-    "static/js/main.db0a34be.chunk.js"
+    "static/css/main.496829bb.chunk.css",
+    "static/js/main.4ba076c8.chunk.js"
   ]
 }
