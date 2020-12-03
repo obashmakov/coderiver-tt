@@ -117,3 +117,38 @@
     background-color: rgb(34, 44, 60);
   }
 }
+
+@media (max-width: 1024px) {
+  .chart {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+
+    &__container {
+      width: 375px;
+      height: 200px;
+      margin-left: 0;
+    }
+
+    &__earnings,
+    &__months,
+    &__money,
+    &__fill,
+    &__outline,
+    &__point,
+    &__ernings-info,
+    &__info {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .chart {
+    max-width: 300px;
+
+    &__container {
+      width: 250px;
+    }
+  }
+}

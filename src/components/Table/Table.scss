@@ -59,3 +59,9 @@
     background: url(../../images/SortMarks.svg) no-repeat center;
   }
 }
+
+@media (max-width: 1024px) {
+  .table {
+    display: none;
+  }
+}

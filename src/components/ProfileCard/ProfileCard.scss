@@ -142,3 +142,9 @@
     background-color: rgb(249, 120, 116);
   }
 }
+
+@media (max-width: 1024px) {
+  .profile {
+    display: none;
+  }
+}
