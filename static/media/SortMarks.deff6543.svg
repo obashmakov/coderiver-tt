@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8" height="11" viewBox="0 0 8 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8492b4;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Sort-marks" class="cls-1" d="M1087.5,671l4,4,4-4h-8Zm8-3-4-4-4,4h8Z" transform="translate(-1087.5 -664)"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="711" height="154" viewBox="0 0 711 154">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+        stroke: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="765" y1="355" x2="765" y2="204" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1991eb"/>
+      <stop offset="1" stop-color="#2ea1f8"/>
+    </linearGradient>
+  </defs>
+  <path id="Outline" class="cls-1" d="M1119,283l-85,48-78-16-74,19L801,204,723,335l-78,20L568,245l-78,91-79,15" transform="translate(-409.5 -202.5)"/>
+</svg>
