@@ -1,0 +1,52 @@
+.chart {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+
+    font-size: 20px;
+  }
+
+  &__buttons {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__button {
+    font-family: "SourceSansPro-Regular";
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgb(181, 181, 181);
+    cursor: pointer;
+
+    padding: 7px 15px;
+
+    border: none;
+    border-radius: 15px;
+
+    background: none;
+    outline: none;
+    transition: 300ms;
+
+    &--selected {
+      background-color: rgb(39, 155, 244);
+      color: white;
+    }
+
+    &:hover {
+      background-color: rgb(187, 208, 224);
+      color: white;
+    }
+
+    &--selected:hover {
+      background-color: rgb(39, 155, 244);
+    }
+  }
+}

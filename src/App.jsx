@@ -1,24 +1,31 @@
 import React from 'react';
+import { Menu } from './components/Menu';
+import { Header } from './components/Header';
+import { Chart } from './components/Chart';
+import { InfoCards } from './components/InfoCards';
+import { Table } from './components/Table';
+import { ProfileCard } from './components/ProfileCard';
+import { Events } from './components/Events';
 import './App.scss';
-import { Switch, Link, Route } from 'react-router-dom';
 
 export const App = () => (
-  <div>
-    React starter pack
-    <div>
-      <nav className="nav">
-        <Link to="/">Home</Link>
-        <Link to="/users">Users</Link>
-      </nav>
-
-      <Switch>
-        <Route path="/users">
-          <div>Users page</div>
-        </Route>
-        <Route path="/">
-          <div>Home page</div>
-        </Route>
-      </Switch>
+  <div className="content">
+    <Menu />
+    <div className="content__container">
+      <div className="content__central">
+        <Header />
+        <main className="main">
+          <div className="main__content">
+            <Chart />
+            <InfoCards />
+            <Table />
+          </div>
+          <div className="main__aside">
+            <ProfileCard />
+            <Events />
+          </div>
+        </main>
+      </div>
     </div>
   </div>
 );

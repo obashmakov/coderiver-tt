@@ -1,0 +1,96 @@
+.friends {
+  width: 250px;
+
+  background-color: rgb(34, 44, 60);
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 100px 30px 0 30px;
+
+    font-family: "SourceSansPro-Bold";
+    font-size: 14px;
+    color: rgb(76, 87, 105);
+    text-transform: uppercase;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 55vh;
+
+    margin-top: 10px;
+
+    background-color: rgb(34, 44, 60);
+  }
+
+  &__settings-icon {
+    cursor: pointer;
+    transition: filter 300ms;
+    
+    &:hover {
+      filter: brightness(5);
+    }
+  }
+
+  &__status {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  &__photo {
+    width: 40px;
+    height: 40px;
+  }
+
+  &__online {
+    position: absolute;
+    bottom: 3px;
+    left: 27px;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 10px;
+
+    font-family: "SourceSansPro-SemiBold";
+    font-size: 14px;
+    color: white;
+  }
+
+  &__messages {
+    width: 25px;
+    height: 25px;
+
+    margin-left: 65px;
+
+    background-color: rgb(38, 156, 244);
+    border-radius: 50%;
+
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+  }
+
+  &__position {
+    color: rgb(76, 87, 105);
+
+    &--color {
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .friends {
+    display: none;
+  }
+}

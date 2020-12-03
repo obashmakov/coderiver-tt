@@ -1,0 +1,150 @@
+.profile {
+  &__container {
+    position: relative;
+    margin-top: 32px;
+    margin-right: 20px;
+    
+    max-width: 370px;
+    height: 680px;
+    border: 2px solid rgb(230, 233, 236);
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  &__background {
+    padding: 9px;
+    z-index: 1;
+  }
+
+  &__photo {
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__name {
+    padding-top: 70px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: "SourceSansPro-SemiBold";
+  }
+
+  &__info {
+    margin: 0;
+    padding: 0;
+
+    font-size: 11px;
+    text-align: center;
+    color: rgb(182, 182, 182);
+  }
+
+  &__line {
+    height: 1px;
+    max-width: 315px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    border: none;
+    background-color: rgb(238, 238, 238);
+  }
+
+  &__description {
+    margin-left: 30px;
+    margin-right: 25px;
+  }
+
+  &__data {
+    font-size: 11px;
+    color: rgb(182, 182, 182);
+    margin: 10px 0 0 0;
+  }
+
+  &__email,
+  &__phone,
+  &__position {
+    margin: 4px 0;
+    font-size: 13px;
+    font-family: "SourceSansPro-SemiBold";
+  }
+
+  &__earnings {
+    display: flex;
+    align-items: center;
+  }
+
+  &__statistic {
+    position: relative;
+    width: 155px;
+    height: 3px;
+    border-radius: 15px;
+    background-color: rgb(223, 228, 238);
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 115px;
+      height: 3px;
+      background-color: rgb(35, 153, 241);
+
+      border-radius: 15px;
+    }
+  }
+
+  &__money {
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgb(35, 153, 241);
+
+    &::after {
+      content: "/$750";
+      color: black;
+    } 
+  }
+
+  &__bio {
+    max-width: 300px;
+    font-size: 13px;
+  }
+}
+
+.skills {
+  text-transform: uppercase;
+  font-size: 9px;
+  color: white;
+  margin-top: 10px;
+
+  &__photo,
+  &__teacher,
+  &__traveller,
+  &__os {
+    padding: 3px 4px;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+
+  &__photo {
+    background-color: rgb(4, 116, 200);
+  }
+
+  &__teacher {
+    background-color: rgb(69, 184, 84);
+  }
+
+  &__traveller {
+    background-color: rgb(129, 145, 166);
+  }
+
+  &__os {
+    background-color: rgb(249, 120, 116);
+  }
+}
+
+@media (max-width: 1024px) {
+  .profile {
+    display: none;
+  }
+}
