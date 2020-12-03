@@ -4,6 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import activeHighlight from '../../../images/activeHighlight.svg';
+import { profilePhotos } from '../../../images/profiles/profilesPhotos';
 import './Profiles.scss';
 
 export const Profiles = ({ onToggle, isActive }) => (
@@ -11,7 +12,7 @@ export const Profiles = ({ onToggle, isActive }) => (
     <div className="profiles__container">
       <img
         className="profiles__photo"
-        src="/images/profiles/profile1.png"
+        src={profilePhotos[0]}
         alt="first person"
       />
     </div>
@@ -29,28 +30,28 @@ export const Profiles = ({ onToggle, isActive }) => (
           { 'profiles__photo--active': isActive },
           { 'profiles__photo--notactive': !isActive },
         )}
-        src="/images/profiles/profile2.png"
+        src={profilePhotos[1]}
         alt="second person"
       />
     </div>
     <div className="profiles__container">
       <img
         className="profiles__photo"
-        src="/images/profiles/profile3.png"
+        src={profilePhotos[2]}
         alt="third person"
       />
     </div>
     <div className="profiles__container">
       <img
         className="profiles__photo"
-        src="/images/profiles/profile4.png"
+        src={profilePhotos[3]}
         alt="fourth person"
       />
     </div>
     <div className="profiles__container">
       <img
         className="profiles__photo"
-        src="/images/profiles/profile5.png"
+        src={profilePhotos[4]}
         alt="fifth person"
       />
     </div>
