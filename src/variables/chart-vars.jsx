@@ -3,5 +3,44 @@ export const earnings = [
 ].reverse();
 
 export const months = [
-  'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug',
+  {
+    month: 'Jan',
+    salary: '$110',
+  },
+
+  {
+    month: 'Feb',
+    salary: '$305',
+  },
+
+  {
+    month: 'Mar',
+    salary: '$82',
+  },
+
+  {
+    month: 'Apr',
+    salary: '$103',
+  },
+
+  {
+    month: 'May',
+    salary: '$402',
+  },
+
+  {
+    month: 'Jun',
+    salary: '$105',
+  },
+
+  {
+    month: 'Jul',
+    salary: '$203',
+  },
+
+  {
+    month: 'Aug',
+    salary: '$125',
+  },
+
 ];

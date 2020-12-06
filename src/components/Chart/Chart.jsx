@@ -29,10 +29,12 @@ export const Chart = () => {
             <>
               <ul className="chart__earnings">
                 {earnings.map((money, index) => (
-                  <li className={classNames(
-                    'chart__money',
-                    { 'chart__money--colored': index === earnings.length - 1 },
-                  )}
+                  <li
+                    key={money}
+                    className={classNames(
+                      'chart__money',
+                      { 'chart__money--color': index === earnings.length - 1 },
+                    )}
                   >
                     {money}
                   </li>
@@ -40,8 +42,12 @@ export const Chart = () => {
               </ul>
               <ul className="chart__months">
                 {months.map(month => (
-                  <li className="chart__month">
-                    {month}
+                  <li key={month.month} className="chart__month">
+                    {month.month}
+                    {' '}
+                    <span className="chart__salary">
+                      {month.salary}
+                    </span>
                   </li>
                 ))}
               </ul>

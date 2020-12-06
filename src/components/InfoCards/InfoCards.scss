@@ -61,3 +61,33 @@
     background-color: rgb(245, 248, 250);
   }
 }
+
+@media (max-width: 1023px) {
+  .info {
+    &__container {
+      width: 220px;
+    }
+
+    &__card {
+      width: 105px;
+      height: 161px;
+
+      &:nth-child(3),
+      &:nth-child(4) {
+        display: none;
+      }
+    }
+
+    &__arrow {
+      margin-right: 5px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .info {
+    &__container {
+      margin-left: 40px;
+    }
+  }
+}

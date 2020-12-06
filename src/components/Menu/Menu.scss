@@ -23,6 +23,7 @@
     transition: 500ms;
 
     &--notactive {
+      margin-left: -150px;
       transition: 500ms;
       transform: translateX(-300px);
     }
@@ -45,5 +46,24 @@
         filter: brightness(5);
       }
     }
+  }
+}
+
+@media (max-width: 1023px) {
+  .menu {
+    &__status {
+      width: 70px;
+    }
+
+    &__list {
+      padding-left: 70px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .menu {
+    z-index: 100;
+    position: fixed;
   }
 }

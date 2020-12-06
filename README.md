@@ -4,7 +4,7 @@
 
 ## Description
 
-Layout implemented according to [this design](https://drive.google.com/drive/folders/1F_mf4FpdWhG3pnm966G2IOsKZq1A4X-j)
+This respnsive layout is implemented according to [this design](https://drive.google.com/drive/folders/1F_mf4FpdWhG3pnm966G2IOsKZq1A4X-j)
 
 This project was realised using React(Hooks), HTML/CSS, SASS, BEM
 
