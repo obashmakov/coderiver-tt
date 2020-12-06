@@ -143,8 +143,79 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .profile {
-    display: none;
+    &__container {
+      width: 220px;
+      margin-left: -20px;
+      height: 380px;
+    }
+
+    &__background {
+      width: 220px;
+    }
+
+    &__photo {
+      width: 80px;
+      height: 80px;
+    }
+
+    &__name {
+      padding-top: 20px;
+      font-size: 16px;
+    }
+
+    &__info {
+      font-size: 10px;
+    }
+
+    &__line {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    &__data {
+      margin-top: 6px;
+      font-size: 10px;
+      
+      &:nth-child(12) {
+        display: none;
+      }
+    }
+
+    &__email,
+    &__phone,
+    &__position {
+      font-size: 11px;
+    }
+
+    &__statistic {
+      width: 100px;
+
+      &::after {
+        width: 70px;
+      }
+    }
+
+    &__money {
+      font-size: 11px;
+    } 
+
+    &__bio {
+      display: none;
+    }
+  }
+
+  .skills {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile {
+    &__container {
+      margin-right: 0;
+      margin-left: 65px;
+    }
   }
 }

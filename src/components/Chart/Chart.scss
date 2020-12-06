@@ -53,7 +53,7 @@
       border-bottom: 1px solid rgb(181, 181, 181);
     }
 
-    &--colored::after {
+    &--color::after {
       border-bottom: 1px solid rgb(178, 229, 255);
     }
   }
@@ -90,7 +90,6 @@
   }
 
   &__info {
-    z-index: 3;
     position: relative;
     width: 120px;
     height: 35px;
@@ -116,22 +115,25 @@
 
     background-color: rgb(34, 44, 60);
   }
+
+  &__salary {
+    display: none;
+  }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .chart {
-    max-width: 600px;
-    display: flex;
-    justify-content: center;
+    &__top {
+      margin-bottom: 10px;
+    }
 
     &__container {
-      width: 375px;
+      max-width: 220px;
       height: 200px;
-      margin-left: 0;
+      margin-right: 0;
     }
 
     &__earnings,
-    &__months,
     &__money,
     &__fill,
     &__outline,
@@ -140,15 +142,29 @@
     &__info {
       display: none;
     }
+
+    &__months {
+      position: static;
+      display: block;
+    }
+
+    &__month {
+      padding: 3px 0;
+      margin-left: 20px;
+    }
+
+    &__salary {
+      display: inline;
+      color: black;
+      margin-left: 10px;
+    }
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .chart {
-    max-width: 300px;
-
     &__container {
-      width: 250px;
+      margin-left: 40px;
     }
   }
 }

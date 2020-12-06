@@ -50,3 +50,16 @@
     }
   }
 }
+
+@media (max-width: 1023px) {
+  .chart {
+     &__top {
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    &__buttons {
+      display: none;
+    }
+  }
+}

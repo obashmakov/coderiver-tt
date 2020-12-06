@@ -31,3 +31,11 @@
     }
   }
 }
+
+@media (max-width: 1023px) {
+  .profiles {
+    &__container {
+      width: 70px;
+    }
+  }
+}

@@ -80,3 +80,28 @@
     }
   }
 }
+
+@media (max-width: 1023px) {
+  .nav {
+    width: 200px;
+
+    &__title {
+      width: 180px;
+    }
+
+    &__invites {
+      margin-left: 90px;
+    }
+
+    &__input {
+      width: 170px;
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .nav {
+    position: fixed;
+    z-index: 10;
+  }
+}
